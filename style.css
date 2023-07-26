@@ -2,4 +2,44 @@
 
 * {
   font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+}
+
+nav {
+  border-bottom: 1px solid #fe7f2d;
+  padding: 15px 30px;
+}
+
+.navbar {
+  text-align: right;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 50px;
+}
+
+a {
+  padding: 15px 5px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: #fe7f2d;
+  transition: all 0.5s;
+}
+
+.jumbotron {
+  padding: 100px 50px;
+  background-color: aquamarine;
+}
+
+.jumbotron-img {
+  width: 30%;
 }
